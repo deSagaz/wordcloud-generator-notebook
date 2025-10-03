@@ -7,7 +7,7 @@ For example:
 <img width="3000" height="1500" alt="Wordcloud for Thalidomide" src="https://github.com/deSagaz/wordcloud-generator-notebook/blob/master/wordcloud_thalidomide.png" />
 
 To generate this wordcloud, the English Google Search API was queried for the top 50 results for "thalidomide."
-Returned URLs were consequentiually scraped, stripped of stop words and ranked by popularity. The size and brightness
+Returned URLs were consequently scraped, stripped of stop words and ranked by popularity. The size and brightness
 of words in the visualisation correspond to popularity.
 
 This notebook was commissioned by Toine Pieters (Utrecht University). In line with open science principles,
