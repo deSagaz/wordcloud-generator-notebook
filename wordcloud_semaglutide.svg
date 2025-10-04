@@ -1,0 +1,505 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1500">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:white"></rect>
+<text transform="translate(613,830)" font-size="269" style="fill:rgb(0,0,0)">semaglutide</text>
+<text transform="translate(1183,243)" font-size="191" style="fill:rgb(17,17,17)">weight</text>
+<text transform="translate(1530,1250)" font-size="175" style="fill:rgb(23,23,23)">trial</text>
+<text transform="translate(1565,965)" font-size="172" style="fill:rgb(27,27,27)">patient</text>
+<text transform="translate(1129,538)" font-size="171" style="fill:rgb(30,30,30)">diabetes</text>
+<text transform="translate(678,986)" font-size="150" style="fill:rgb(33,33,33)">week</text>
+<text transform="translate(741,1199)" font-size="149" style="fill:rgb(35,35,35)">effect</text>
+<text transform="translate(1060,1368)" font-size="147" style="fill:rgb(38,38,38)">participant</text>
+<text transform="translate(1939,422)" font-size="142" style="fill:rgb(40,40,40)">loss</text>
+<text transform="translate(700,640)" font-size="135" style="fill:rgb(42,42,42)">treatment</text>
+<text transform="translate(2149,1295) rotate(-90)" font-size="132" style="fill:rgb(43,43,43)">type</text>
+<text transform="translate(965,349)" font-size="132" style="fill:rgb(45,45,45)">placebo</text>
+<text transform="translate(821,493)" font-size="130" style="fill:rgb(47,47,47)">drug</text>
+<text transform="translate(1113,1040)" font-size="128" style="fill:rgb(48,48,48)">study</text>
+<text transform="translate(1097,1463)" font-size="122" style="fill:rgb(50,50,50)">obesity</text>
+<text transform="translate(1960,580)" font-size="117" style="fill:rgb(51,51,51)">risk</text>
+<text transform="translate(878,180)" font-size="116" style="fill:rgb(52,52,52)">step</text>
+<text transform="translate(1683,1066)" font-size="114" style="fill:rgb(54,54,54)">glp-1</text>
+<text transform="translate(738,1075)" font-size="113" style="fill:rgb(55,55,55)">dose</text>
+<text transform="translate(1565,416)" font-size="109" style="fill:rgb(56,56,56)">oral</text>
+<text transform="translate(1931,340) rotate(-90)" font-size="109" style="fill:rgb(57,57,57)">event</text>
+<text transform="translate(1153,119)" font-size="106" style="fill:rgb(58,58,58)">data</text>
+<text transform="translate(781,1285)" font-size="104" style="fill:rgb(60,60,60)">clinical</text>
+<text transform="translate(1421,618)" font-size="91" style="fill:rgb(61,61,61)">medication</text>
+<text transform="translate(1404,65)" font-size="69" style="fill:rgb(62,62,62)">liraglutide</text>
+<text transform="translate(1613,1456)" font-size="68" style="fill:rgb(63,63,63)">receptor</text>
+<text transform="translate(1997,208)" font-size="68" style="fill:rgb(63,63,63)">body</text>
+<text transform="translate(995,405)" font-size="68" style="fill:rgb(65,65,65)">cardiovascular</text>
+<text transform="translate(1688,322)" font-size="68" style="fill:rgb(66,66,66)">date</text>
+<text transform="translate(1290,1179)" font-size="67" style="fill:rgb(67,67,67)">change</text>
+<text transform="translate(664,891)" font-size="66" style="fill:rgb(67,67,67)">adverse</text>
+<text transform="translate(2018,1338)" font-size="64" style="fill:rgb(68,68,68)">novo</text>
+<text transform="translate(1051,1094)" font-size="64" style="fill:rgb(69,69,69)">nordisk</text>
+<text transform="translate(752,315)" font-size="62" style="fill:rgb(70,70,70)">fda</text>
+<text transform="translate(1280,1214)" font-size="62" style="fill:rgb(71,71,71)">year</text>
+<text transform="translate(1049,922)" font-size="62" style="fill:rgb(72,72,72)">safety</text>
+<text transform="translate(1967,474)" font-size="61" style="fill:rgb(73,73,73)">analysis</text>
+<text transform="translate(1955,294)" font-size="61" style="fill:rgb(73,73,73)">agonist</text>
+<text transform="translate(727,390)" font-size="61" style="fill:rgb(73,73,73)">food</text>
+<text transform="translate(649,542)" font-size="61" style="fill:rgb(75,75,75)">reduction</text>
+<text transform="translate(952,88)" font-size="61" style="fill:rgb(76,76,76)">full</text>
+<text transform="translate(1396,1111)" font-size="61" style="fill:rgb(76,76,76)">group</text>
+<text transform="translate(803,228)" font-size="61" style="fill:rgb(77,77,77)">ozempic</text>
+<text transform="translate(2231,1271) rotate(-90)" font-size="61" style="fill:rgb(78,78,78)">baseline</text>
+<text transform="translate(1516,658)" font-size="61" style="fill:rgb(79,79,79)">wegovy</text>
+<text transform="translate(1965,623)" font-size="55" style="fill:rgb(79,79,79)">subcutaneous</text>
+<text transform="translate(836,1337)" font-size="55" style="fill:rgb(80,80,80)">pioneer</text>
+<text transform="translate(1868,1412)" font-size="55" style="fill:rgb(81,81,81)">disease</text>
+<text transform="translate(681,679)" font-size="55" style="fill:rgb(81,81,81)">text</text>
+<text transform="translate(1841,1107)" font-size="55" style="fill:rgb(82,82,82)">outcome</text>
+<text transform="translate(2315,1099) rotate(-90)" font-size="54" style="fill:rgb(83,83,83)">compared</text>
+<text transform="translate(1275,939)" font-size="53" style="fill:rgb(83,83,83)">medicine</text>
+<text transform="translate(1135,671)" font-size="40" style="fill:rgb(84,84,84)">glucagon-like</text>
+<text transform="translate(1434,884) rotate(-90)" font-size="40" style="fill:rgb(84,84,84)">sustain</text>
+<text transform="translate(1227,965)" font-size="40" style="fill:rgb(85,85,85)">one</text>
+<text transform="translate(1493,1054)" font-size="40" style="fill:rgb(85,85,85)">efficacy</text>
+<text transform="translate(826,671)" font-size="40" style="fill:rgb(87,87,87)">population</text>
+<text transform="translate(1461,863)" font-size="40" style="fill:rgb(87,87,87)">without</text>
+<text transform="translate(2034,329)" font-size="40" style="fill:rgb(87,87,87)">overweight</text>
+<text transform="translate(1972,253)" font-size="40" style="fill:rgb(88,88,88)">adult</text>
+<text transform="translate(1997,121)" font-size="40" style="fill:rgb(89,89,89)">org</text>
+<text transform="translate(994,863)" font-size="40" style="fill:rgb(90,90,90)">injection</text>
+<text transform="translate(1801,386)" font-size="40" style="fill:rgb(90,90,90)">peptide</text>
+<text transform="translate(942,1379)" font-size="40" style="fill:rgb(90,90,90)">first</text>
+<text transform="translate(1517,324)" font-size="40" style="fill:rgb(90,90,90)">figure</text>
+<text transform="translate(1611,1126)" font-size="40" style="fill:rgb(92,92,92)">period</text>
+<text transform="translate(1701,1406)" font-size="40" style="fill:rgb(92,92,92)">using</text>
+<text transform="translate(705,1108)" font-size="40" style="fill:rgb(92,92,92)">blood</text>
+<text transform="translate(1698,102)" font-size="39" style="fill:rgb(94,94,94)">product</text>
+<text transform="translate(1088,31)" font-size="39" style="fill:rgb(94,94,94)">randomized</text>
+<text transform="translate(1133,1497)" font-size="39" style="fill:rgb(95,95,95)">used</text>
+<text transform="translate(673,447)" font-size="39" style="fill:rgb(95,95,95)">day</text>
+<text transform="translate(1237,1496)" font-size="39" style="fill:rgb(95,95,95)">randomisation</text>
+<text transform="translate(1810,1489)" font-size="39" style="fill:rgb(96,96,96)">reported</text>
+<text transform="translate(2059,867)" font-size="39" style="fill:rgb(97,97,97)">level</text>
+<text transform="translate(1824,652)" font-size="39" style="fill:rgb(97,97,97)">people</text>
+<text transform="translate(1482,137)" font-size="39" style="fill:rgb(97,97,97)">brain</text>
+<text transform="translate(1770,1286)" font-size="39" style="fill:rgb(98,98,98)">research</text>
+<text transform="translate(1019,956)" font-size="39" style="fill:rgb(99,99,99)">care</text>
+<text transform="translate(1309,1249)" font-size="39" style="fill:rgb(99,99,99)">associated</text>
+<text transform="translate(1629,867)" font-size="39" style="fill:rgb(100,100,100)">control</text>
+<text transform="translate(2228,665)" font-size="39" style="fill:rgb(100,100,100)">insulin</text>
+<text transform="translate(1821,777)" font-size="39" style="fill:rgb(101,101,101)">weekly</text>
+<text transform="translate(1455,806) rotate(-90)" font-size="39" style="fill:rgb(101,101,101)">mean</text>
+<text transform="translate(2259,1199) rotate(-90)" font-size="39" style="fill:rgb(101,101,101)">management</text>
+<text transform="translate(856,274)" font-size="39" style="fill:rgb(101,101,101)">observed</text>
+<text transform="translate(1975,214) rotate(-90)" font-size="38" style="fill:rgb(103,103,103)">retrieved</text>
+<text transform="translate(675,490)" font-size="38" style="fill:rgb(103,103,103)">health</text>
+<text transform="translate(2304,579) rotate(-90)" font-size="38" style="fill:rgb(103,103,103)">peptide-1</text>
+<text transform="translate(1581,1485)" font-size="37" style="fill:rgb(104,104,104)">including</text>
+<text transform="translate(962,1437)" font-size="37" style="fill:rgb(105,105,105)">time</text>
+<text transform="translate(1434,94)" font-size="37" style="fill:rgb(105,105,105)">versus</text>
+<text transform="translate(1125,273)" font-size="37" style="fill:rgb(105,105,105)">difference</text>
+<text transform="translate(1926,677)" font-size="28" style="fill:rgb(106,106,106)">tirzepatide</text>
+<text transform="translate(1438,561)" font-size="28" style="fill:rgb(106,106,106)">based</text>
+<text transform="translate(1831,728)" font-size="28" style="fill:rgb(106,106,106)">increase</text>
+<text transform="translate(626,662)" font-size="28" style="fill:rgb(106,106,106)">t2d</text>
+<text transform="translate(730,337)" font-size="28" style="fill:rgb(108,108,108)">administration</text>
+<text transform="translate(1587,346)" font-size="28" style="fill:rgb(108,108,108)">individual</text>
+<text transform="translate(1422,274) rotate(-90)" font-size="28" style="fill:rgb(109,109,109)">once-weekly</text>
+<text transform="translate(2022,646)" font-size="28" style="fill:rgb(109,109,109)">follow-up</text>
+<text transform="translate(835,1009)" font-size="28" style="fill:rgb(110,110,110)">increased</text>
+<text transform="translate(627,633)" font-size="28" style="fill:rgb(110,110,110)">heart</text>
+<text transform="translate(973,1471)" font-size="28" style="fill:rgb(110,110,110)">subject</text>
+<text transform="translate(664,1003) rotate(-90)" font-size="28" style="fill:rgb(111,111,111)">kidney</text>
+<text transform="translate(1842,424)" font-size="28" style="fill:rgb(111,111,111)">phase</text>
+<text transform="translate(1439,964)" font-size="28" style="fill:rgb(112,112,112)">however</text>
+<text transform="translate(1479,1278)" font-size="28" style="fill:rgb(112,112,112)">rybelsus</text>
+<text transform="translate(1634,266)" font-size="28" style="fill:rgb(113,113,113)">information</text>
+<text transform="translate(1050,988)" font-size="28" style="fill:rgb(113,113,113)">bmi</text>
+<text transform="translate(1218,556)" font-size="28" style="fill:rgb(113,113,113)">neuron</text>
+<text transform="translate(1025,1015)" font-size="28" style="fill:rgb(114,114,114)">death</text>
+<text transform="translate(894,1404)" font-size="28" style="fill:rgb(114,114,114)">similar</text>
+<text transform="translate(1005,1116)" font-size="28" style="fill:rgb(114,114,114)">intake</text>
+<text transform="translate(1815,1142)" font-size="28" style="fill:rgb(114,114,114)">glp-1ras</text>
+<text transform="translate(1059,234)" font-size="28" style="fill:rgb(115,115,115)">program</text>
+<text transform="translate(757,263)" font-size="28" style="fill:rgb(116,116,116)">visit</text>
+<text transform="translate(1473,442)" font-size="28" style="fill:rgb(116,116,116)">observation</text>
+<text transform="translate(1246,1117)" font-size="28" style="fill:rgb(117,117,117)">acute</text>
+<text transform="translate(2353,965) rotate(-90)" font-size="28" style="fill:rgb(117,117,117)">therapy</text>
+<text transform="translate(712,412)" font-size="28" style="fill:rgb(117,117,117)">receiving</text>
+<text transform="translate(2001,984)" font-size="28" style="fill:rgb(117,117,117)">nausea</text>
+<text transform="translate(629,867) rotate(-90)" font-size="28" style="fill:rgb(117,117,117)">pancreatitis</text>
+<text transform="translate(1604,992)" font-size="28" style="fill:rgb(117,117,117)">following</text>
+<text transform="translate(1951,1433)" font-size="28" style="fill:rgb(117,117,117)">greater</text>
+<text transform="translate(1035,550) rotate(-90)" font-size="28" style="fill:rgb(117,117,117)">fee</text>
+<text transform="translate(1252,835) rotate(-90)" font-size="28" style="fill:rgb(120,120,120)">approved</text>
+<text transform="translate(1878,989) rotate(-90)" font-size="28" style="fill:rgb(120,120,120)">glp-1r</text>
+<text transform="translate(1193,1387)" font-size="24" style="fill:rgb(120,120,120)">gastrointestinal</text>
+<text transform="translate(1488,19)" font-size="24" style="fill:rgb(121,121,121)">original</text>
+<text transform="translate(919,1227) rotate(-90)" font-size="24" style="fill:rgb(121,121,121)">rate</text>
+<text transform="translate(1850,443)" font-size="24" style="fill:rgb(121,121,121)">denmark</text>
+<text transform="translate(2015,1370)" font-size="24" style="fill:rgb(122,122,122)">received</text>
+<text transform="translate(632,602)" font-size="24" style="fill:rgb(122,122,122)">side</text>
+<text transform="translate(1941,504)" font-size="24" style="fill:rgb(123,123,123)">thyroid</text>
+<text transform="translate(1695,1225)" font-size="24" style="fill:rgb(123,123,123)">lower</text>
+<text transform="translate(965,417) rotate(-90)" font-size="24" style="fill:rgb(123,123,123)">cell</text>
+<text transform="translate(1309,1362)" font-size="24" style="fill:rgb(123,123,123)">aes</text>
+<text transform="translate(732,1218)" font-size="24" style="fill:rgb(124,124,124)">severe</text>
+<text transform="translate(740,846)" font-size="24" style="fill:rgb(124,124,124)">number</text>
+<text transform="translate(653,1037)" font-size="24" style="fill:rgb(124,124,124)">result</text>
+<text transform="translate(1314,428)" font-size="24" style="fill:rgb(125,125,125)">potential</text>
+<text transform="translate(1019,34)" font-size="24" style="fill:rgb(125,125,125)">human</text>
+<text transform="translate(1718,437)" font-size="24" style="fill:rgb(125,125,125)">global</text>
+<text transform="translate(1099,1218)" font-size="24" style="fill:rgb(125,125,125)">nt-probnp</text>
+<text transform="translate(1717,203) rotate(-90)" font-size="24" style="fill:rgb(127,127,127)">new</text>
+<text transform="translate(2090,1287)" font-size="24" style="fill:rgb(127,127,127)">among</text>
+<text transform="translate(1129,948)" font-size="24" style="fill:rgb(127,127,127)">hba1c</text>
+<text transform="translate(1561,1391)" font-size="24" style="fill:rgb(127,127,127)">benefit</text>
+<text transform="translate(1648,1146)" font-size="24" style="fill:rgb(128,128,128)">case</text>
+<text transform="translate(837,851)" font-size="24" style="fill:rgb(128,128,128)">archived</text>
+<text transform="translate(1464,899)" font-size="24" style="fill:rgb(129,129,129)">gov</text>
+<text transform="translate(1317,32)" font-size="24" style="fill:rgb(129,129,129)">higher</text>
+<text transform="translate(1576,513)" font-size="24" style="fill:rgb(129,129,129)">consent</text>
+<text transform="translate(943,1303)" font-size="24" style="fill:rgb(130,130,130)">available</text>
+<text transform="translate(1252,134)" font-size="24" style="fill:rgb(130,130,130)">measure</text>
+<text transform="translate(985,107)" font-size="24" style="fill:rgb(130,130,130)">development</text>
+<text transform="translate(1580,828) rotate(-90)" font-size="24" style="fill:rgb(131,131,131)">hypoglycemia</text>
+<text transform="translate(1383,1330)" font-size="24" style="fill:rgb(131,131,131)">work</text>
+<text transform="translate(1891,983)" font-size="24" style="fill:rgb(131,131,131)">metab</text>
+<text transform="translate(1550,774) rotate(-90)" font-size="24" style="fill:rgb(132,132,132)">vomiting</text>
+<text transform="translate(1824,795)" font-size="24" style="fill:rgb(132,132,132)">glucose</text>
+<text transform="translate(861,298)" font-size="24" style="fill:rgb(132,132,132)">activity</text>
+<text transform="translate(1642,1268)" font-size="24" style="fill:rgb(132,132,132)">chemistry</text>
+<text transform="translate(2299,785)" font-size="24" style="fill:rgb(132,132,132)">glp-1ra</text>
+<text transform="translate(1852,566)" font-size="24" style="fill:rgb(132,132,132)">in-trial</text>
+<text transform="translate(1422,271)" font-size="24" style="fill:rgb(134,134,134)">ratio</text>
+<text transform="translate(1710,1206)" font-size="24" style="fill:rgb(134,134,134)">well</text>
+<text transform="translate(1623,558)" font-size="24" style="fill:rgb(134,134,134)">expression</text>
+<text transform="translate(1984,149)" font-size="24" style="fill:rgb(134,134,134)">nucleus</text>
+<text transform="translate(839,794)" font-size="24" style="fill:rgb(135,135,135)">review</text>
+<text transform="translate(725,1008)" font-size="24" style="fill:rgb(135,135,135)">dos</text>
+<text transform="translate(1841,354)" font-size="24" style="fill:rgb(135,135,135)">metformin</text>
+<text transform="translate(2192,1043) rotate(-90)" font-size="24" style="fill:rgb(135,135,135)">clinicaltrials</text>
+<text transform="translate(1322,1066)" font-size="24" style="fill:rgb(136,136,136)">reduce</text>
+<text transform="translate(969,250)" font-size="24" style="fill:rgb(136,136,136)">lost</text>
+<text transform="translate(1315,480)" font-size="24" style="fill:rgb(136,136,136)">mouse</text>
+<text transform="translate(1231,52)" font-size="24" style="fill:rgb(136,136,136)">måløv</text>
+<text transform="translate(1006,1029)" font-size="24" style="fill:rgb(137,137,137)">sugar</text>
+<text transform="translate(1936,867)" font-size="24" style="fill:rgb(138,138,138)">diabetic</text>
+<text transform="translate(1103,840) rotate(-90)" font-size="24" style="fill:rgb(138,138,138)">retinopathy</text>
+<text transform="translate(935,458)" font-size="24" style="fill:rgb(138,138,138)">due</text>
+<text transform="translate(1063,558)" font-size="24" style="fill:rgb(138,138,138)">significant</text>
+<text transform="translate(840,564)" font-size="24" style="fill:rgb(138,138,138)">overall</text>
+<text transform="translate(875,355)" font-size="24" style="fill:rgb(138,138,138)">daily</text>
+<text transform="translate(706,732)" font-size="24" style="fill:rgb(138,138,138)">dosage</text>
+<text transform="translate(2026,1226)" font-size="24" style="fill:rgb(138,138,138)">arh</text>
+<text transform="translate(1579,1103)" font-size="24" style="fill:rgb(140,140,140)">version</text>
+<text transform="translate(1748,844) rotate(-90)" font-size="24" style="fill:rgb(140,140,140)">compounded</text>
+<text transform="translate(2036,1189)" font-size="24" style="fill:rgb(140,140,140)">show</text>
+<text transform="translate(2225,822) rotate(-90)" font-size="24" style="fill:rgb(140,140,140)">pancreatic</text>
+<text transform="translate(2215,490)" font-size="24" style="fill:rgb(140,140,140)">pen</text>
+<text transform="translate(951,1221)" font-size="24" style="fill:rgb(140,140,140)">chronic</text>
+<text transform="translate(867,313)" font-size="24" style="fill:rgb(140,140,140)">across</text>
+<text transform="translate(1487,1075)" font-size="24" style="fill:rgb(140,140,140)">activation</text>
+<text transform="translate(1594,1012)" font-size="24" style="fill:rgb(143,143,143)">report</text>
+<text transform="translate(1977,90)" font-size="24" style="fill:rgb(143,143,143)">appetite</text>
+<text transform="translate(2379,904) rotate(-90)" font-size="24" style="fill:rgb(143,143,143)">finding</text>
+<text transform="translate(1831,749)" font-size="24" style="fill:rgb(143,143,143)">rat</text>
+<text transform="translate(1484,884)" font-size="24" style="fill:rgb(144,144,144)">diet</text>
+<text transform="translate(1310,854)" font-size="24" style="fill:rgb(144,144,144)">aged</text>
+<text transform="translate(1848,870)" font-size="24" style="fill:rgb(144,144,144)">march</text>
+<text transform="translate(1132,1177)" font-size="24" style="fill:rgb(144,144,144)">shown</text>
+<text transform="translate(1996,709)" font-size="24" style="fill:rgb(144,144,144)">region</text>
+<text transform="translate(1848,682)" font-size="24" style="fill:rgb(144,144,144)">table</text>
+<text transform="translate(2020,944)" font-size="24" style="fill:rgb(145,145,145)">cause</text>
+<text transform="translate(1238,537) rotate(-90)" font-size="24" style="fill:rgb(145,145,145)">lifestyle</text>
+<text transform="translate(1794,517)" font-size="24" style="fill:rgb(145,145,145)">reduced</text>
+<text transform="translate(2128,252)" font-size="24" style="fill:rgb(145,145,145)">june</text>
+<text transform="translate(1411,1216)" font-size="24" style="fill:rgb(147,147,147)">different</text>
+<text transform="translate(1880,1066)" font-size="24" style="fill:rgb(147,147,147)">whether</text>
+<text transform="translate(1677,129)" font-size="24" style="fill:rgb(147,147,147)">although</text>
+<text transform="translate(1829,19)" font-size="24" style="fill:rgb(147,147,147)">december</text>
+<text transform="translate(1099,52)" font-size="24" style="fill:rgb(147,147,147)">support</text>
+<text transform="translate(958,988) rotate(-90)" font-size="24" style="fill:rgb(147,147,147)">evaluated</text>
+<text transform="translate(2076,508)" font-size="24" style="fill:rgb(147,147,147)">system</text>
+<text transform="translate(1255,1269)" font-size="24" style="fill:rgb(147,147,147)">treated</text>
+<text transform="translate(1007,1496)" font-size="24" style="fill:rgb(147,147,147)">inhibitor</text>
+<text transform="translate(1586,1234)" font-size="24" style="fill:rgb(147,147,147)">obes</text>
+<text transform="translate(1432,1133)" font-size="24" style="fill:rgb(147,147,147)">endpoint</text>
+<text transform="translate(857,1363)" font-size="24" style="fill:rgb(150,150,150)">doctor</text>
+<text transform="translate(1278,825) rotate(-90)" font-size="24" style="fill:rgb(150,150,150)">medicinal</text>
+<text transform="translate(1967,1446)" font-size="24" style="fill:rgb(150,150,150)">cancer</text>
+<text transform="translate(2141,1146)" font-size="24" style="fill:rgb(150,150,150)">med</text>
+<text transform="translate(1679,791) rotate(-90)" font-size="24" style="fill:rgb(150,150,150)">science</text>
+<text transform="translate(1004,1053)" font-size="24" style="fill:rgb(151,151,151)">medical</text>
+<text transform="translate(1123,967)" font-size="24" style="fill:rgb(151,151,151)">factor</text>
+<text transform="translate(1641,677)" font-size="24" style="fill:rgb(151,151,151)">high</text>
+<text transform="translate(1982,69)" font-size="24" style="fill:rgb(151,151,151)">evoke</text>
+<text transform="translate(1107,1111)" font-size="21" style="fill:rgb(152,152,152)">pharmacy</text>
+<text transform="translate(1485,1011)" font-size="21" style="fill:rgb(152,152,152)">history</text>
+<text transform="translate(1473,790) rotate(-90)" font-size="21" style="fill:rgb(152,152,152)">gallbladder</text>
+<text transform="translate(1865,402)" font-size="21" style="fill:rgb(152,152,152)">reaction</text>
+<text transform="translate(2062,820) rotate(-90)" font-size="21" style="fill:rgb(152,152,152)">given</text>
+<text transform="translate(1281,362)" font-size="15" style="fill:rgb(152,152,152)">placebo-controlled</text>
+<text transform="translate(897,115)" font-size="15" style="fill:rgb(152,152,152)">function</text>
+<text transform="translate(1641,295)" font-size="15" style="fill:rgb(152,152,152)">note</text>
+<text transform="translate(898,1153)" font-size="15" style="fill:rgb(154,154,154)">area</text>
+<text transform="translate(1176,132)" font-size="15" style="fill:rgb(154,154,154)">included</text>
+<text transform="translate(1818,1047) rotate(-90)" font-size="15" style="fill:rgb(154,154,154)">include</text>
+<text transform="translate(1398,908)" font-size="15" style="fill:rgb(154,154,154)">brand</text>
+<text transform="translate(1639,274)" font-size="15" style="fill:rgb(154,154,154)">age</text>
+<text transform="translate(741,426)" font-size="15" style="fill:rgb(154,154,154)">randomised</text>
+<text transform="translate(2319,583)" font-size="15" style="fill:rgb(154,154,154)">within</text>
+<text transform="translate(788,1300)" font-size="15" style="fill:rgb(154,154,154)">endocrinol</text>
+<text transform="translate(1859,149)" font-size="15" style="fill:rgb(156,156,156)">stomach</text>
+<text transform="translate(907,392)" font-size="15" style="fill:rgb(156,156,156)">com</text>
+<text transform="translate(1006,1410)" font-size="15" style="fill:rgb(156,156,156)">knudsen</text>
+<text transform="translate(1374,1278)" font-size="15" style="fill:rgb(156,156,156)">evidence</text>
+<text transform="translate(679,1071)" font-size="15" style="fill:rgb(156,156,156)">energy</text>
+<text transform="translate(1950,842)" font-size="15" style="fill:rgb(156,156,156)">improvement</text>
+<text transform="translate(1595,1203)" font-size="15" style="fill:rgb(156,156,156)">egfr</text>
+<text transform="translate(1822,853)" font-size="15" style="fill:rgb(158,158,158)">state</text>
+<text transform="translate(1572,104)" font-size="15" style="fill:rgb(158,158,158)">discovery</text>
+<text transform="translate(1764,1112)" font-size="15" style="fill:rgb(158,158,158)">january</text>
+<text transform="translate(1793,627)" font-size="15" style="fill:rgb(158,158,158)">occurrence</text>
+<text transform="translate(1810,1187)" font-size="15" style="fill:rgb(158,158,158)">regulation</text>
+<text transform="translate(1071,538)" font-size="15" style="fill:rgb(159,159,159)">action</text>
+<text transform="translate(990,362)" font-size="15" style="fill:rgb(159,159,159)">symptom</text>
+<text transform="translate(1795,969) rotate(-90)" font-size="15" style="fill:rgb(159,159,159)">found</text>
+<text transform="translate(944,1452)" font-size="15" style="fill:rgb(159,159,159)">least</text>
+<text transform="translate(897,1302)" font-size="15" style="fill:rgb(159,159,159)">month</text>
+<text transform="translate(2224,303) rotate(-90)" font-size="15" style="fill:rgb(159,159,159)">tablet</text>
+<text transform="translate(2304,564)" font-size="15" style="fill:rgb(159,159,159)">release</text>
+<text transform="translate(2244,677)" font-size="15" style="fill:rgb(159,159,159)">respectively</text>
+<text transform="translate(1734,641)" font-size="15" style="fill:rgb(159,159,159)">approval</text>
+<text transform="translate(2010,1286)" font-size="15" style="fill:rgb(159,159,159)">lancet</text>
+<text transform="translate(1428,132)" font-size="15" style="fill:rgb(159,159,159)">c-fos</text>
+<text transform="translate(1526,204) rotate(-90)" font-size="15" style="fill:rgb(162,162,162)">active</text>
+<text transform="translate(910,94)" font-size="15" style="fill:rgb(162,162,162)">dosing</text>
+<text transform="translate(1559,1253) rotate(-90)" font-size="15" style="fill:rgb(162,162,162)">condition</text>
+<text transform="translate(1148,733)" font-size="15" style="fill:rgb(162,162,162)">signal</text>
+<text transform="translate(1262,1151)" font-size="15" style="fill:rgb(162,162,162)">two</text>
+<text transform="translate(2093,1222)" font-size="15" style="fill:rgb(162,162,162)">sitagliptin</text>
+<text transform="translate(750,695)" font-size="15" style="fill:rgb(162,162,162)">failure</text>
+<text transform="translate(1137,433)" font-size="15" style="fill:rgb(162,162,162)">pathway</text>
+<text transform="translate(1703,1147)" font-size="15" style="fill:rgb(162,162,162)">jmedchem</text>
+<text transform="translate(1118,318) rotate(-90)" font-size="15" style="fill:rgb(164,164,164)">pressure</text>
+<text transform="translate(2057,306)" font-size="15" style="fill:rgb(164,164,164)">mechanism</text>
+<text transform="translate(996,419)" font-size="15" style="fill:rgb(164,164,164)">double-blind</text>
+<text transform="translate(1088,77)" font-size="15" style="fill:rgb(164,164,164)">several</text>
+<text transform="translate(1297,954)" font-size="15" style="fill:rgb(164,164,164)">association</text>
+<text transform="translate(1893,115)" font-size="15" style="fill:rgb(164,164,164)">board</text>
+<text transform="translate(1667,909)" font-size="15" style="fill:rgb(164,164,164)">last</text>
+<text transform="translate(805,192)" font-size="15" style="fill:rgb(164,164,164)">escalation</text>
+<text transform="translate(1948,434)" font-size="15" style="fill:rgb(166,166,166)">compounding</text>
+<text transform="translate(1650,78)" font-size="15" style="fill:rgb(166,166,166)">address</text>
+<text transform="translate(1334,442)" font-size="15" style="fill:rgb(166,166,166)">contributed</text>
+<text transform="translate(2313,501)" font-size="15" style="fill:rgb(166,166,166)">low</text>
+<text transform="translate(1490,218)" font-size="15" style="fill:rgb(166,166,166)">amino</text>
+<text transform="translate(773,347)" font-size="15" style="fill:rgb(166,166,166)">mass</text>
+<text transform="translate(2008,562)" font-size="15" style="fill:rgb(166,166,166)">value</text>
+<text transform="translate(2012,1138)" font-size="15" style="fill:rgb(166,166,166)">profile</text>
+<text transform="translate(1306,500) rotate(-90)" font-size="15" style="fill:rgb(166,166,166)">defined</text>
+<text transform="translate(626,571)" font-size="15" style="fill:rgb(168,168,168)">provided</text>
+<text transform="translate(1493,113)" font-size="15" style="fill:rgb(168,168,168)">contact</text>
+<text transform="translate(1353,621) rotate(-90)" font-size="15" style="fill:rgb(168,168,168)">diarrhea</text>
+<text transform="translate(939,560)" font-size="15" style="fill:rgb(168,168,168)">sulfonylurea</text>
+<text transform="translate(2013,1064)" font-size="15" style="fill:rgb(168,168,168)">administered</text>
+<text transform="translate(1733,681)" font-size="15" style="fill:rgb(168,168,168)">showed</text>
+<text transform="translate(1496,419)" font-size="15" style="fill:rgb(168,168,168)">involved</text>
+<text transform="translate(1491,987)" font-size="15" style="fill:rgb(168,168,168)">achieved</text>
+<text transform="translate(1339,539) rotate(-90)" font-size="15" style="fill:rgb(168,168,168)">sema</text>
+<text transform="translate(1576,965) rotate(-90)" font-size="15" style="fill:rgb(170,170,170)">recommended</text>
+<text transform="translate(2023,341)" font-size="15" style="fill:rgb(170,170,170)">manufacturer</text>
+<text transform="translate(693,1127)" font-size="15" style="fill:rgb(170,170,170)">taking</text>
+<text transform="translate(2184,842)" font-size="15" style="fill:rgb(170,170,170)">likely</text>
+<text transform="translate(1505,353)" font-size="15" style="fill:rgb(170,170,170)">complete</text>
+<text transform="translate(2114,958)" font-size="15" style="fill:rgb(170,170,170)">team</text>
+<text transform="translate(656,506)" font-size="15" style="fill:rgb(170,170,170)">controlled</text>
+<text transform="translate(633,785)" font-size="15" style="fill:rgb(170,170,170)">addition</text>
+<text transform="translate(1794,1381)" font-size="15" style="fill:rgb(170,170,170)">initial</text>
+<text transform="translate(2142,232)" font-size="15" style="fill:rgb(170,170,170)">conducted</text>
+<text transform="translate(1825,1001)" font-size="15" style="fill:rgb(170,170,170)">intervention</text>
+<text transform="translate(1128,195)" font-size="15" style="fill:rgb(170,170,170)">per</text>
+<text transform="translate(736,454)" font-size="15" style="fill:rgb(170,170,170)">comparator</text>
+<text transform="translate(1655,391)" font-size="15" style="fill:rgb(170,170,170)">agent</text>
+<text transform="translate(1397,893)" font-size="15" style="fill:rgb(170,170,170)">direct</text>
+<text transform="translate(1885,278)" font-size="15" style="fill:rgb(170,170,170)">usa</text>
+<text transform="translate(1539,1324)" font-size="15" style="fill:rgb(170,170,170)">presented</text>
+<text transform="translate(1645,1282)" font-size="15" style="fill:rgb(174,174,174)">prescription</text>
+<text transform="translate(2231,828)" font-size="15" style="fill:rgb(174,174,174)">doe</text>
+<text transform="translate(657,1054)" font-size="15" style="fill:rgb(174,174,174)">multiple</text>
+<text transform="translate(808,963)" font-size="15" style="fill:rgb(174,174,174)">major</text>
+<text transform="translate(1844,1120)" font-size="15" style="fill:rgb(174,174,174)">exenatide</text>
+<text transform="translate(940,502)" font-size="15" style="fill:rgb(174,174,174)">come</text>
+<text transform="translate(1862,807)" font-size="15" style="fill:rgb(174,174,174)">healthcare</text>
+<text transform="translate(1779,1082)" font-size="15" style="fill:rgb(174,174,174)">free</text>
+<text transform="translate(1939,1202)" font-size="15" style="fill:rgb(174,174,174)">renal</text>
+<text transform="translate(1324,1079)" font-size="15" style="fill:rgb(174,174,174)">design</text>
+<text transform="translate(2121,786)" font-size="15" style="fill:rgb(174,174,174)">lira</text>
+<text transform="translate(981,890)" font-size="15" style="fill:rgb(176,176,176)">quality</text>
+<text transform="translate(1267,630) rotate(-90)" font-size="15" style="fill:rgb(176,176,176)">name</text>
+<text transform="translate(904,476) rotate(-90)" font-size="15" style="fill:rgb(176,176,176)">response</text>
+<text transform="translate(1585,1149)" font-size="15" style="fill:rgb(176,176,176)">meal</text>
+<text transform="translate(1892,1017)" font-size="15" style="fill:rgb(176,176,176)">glucagon</text>
+<text transform="translate(1889,741)" font-size="15" style="fill:rgb(176,176,176)">long-term</text>
+<text transform="translate(1374,1344)" font-size="15" style="fill:rgb(176,176,176)">physical</text>
+<text transform="translate(1280,1335)" font-size="15" style="fill:rgb(176,176,176)">bjerre</text>
+<text transform="translate(2005,995)" font-size="15" style="fill:rgb(176,176,176)">european</text>
+<text transform="translate(2000,1016)" font-size="15" style="fill:rgb(176,176,176)">occurred</text>
+<text transform="translate(1067,362)" font-size="15" style="fill:rgb(176,176,176)">advisory</text>
+<text transform="translate(1956,1262)" font-size="15" style="fill:rgb(176,176,176)">limited</text>
+<text transform="translate(1593,1498)" font-size="15" style="fill:rgb(176,176,176)">institute</text>
+<text transform="translate(1069,678)" font-size="15" style="fill:rgb(176,176,176)">current</text>
+<text transform="translate(740,555)" font-size="15" style="fill:rgb(176,176,176)">long-acting</text>
+<text transform="translate(1643,16)" font-size="15" style="fill:rgb(176,176,176)">accessed</text>
+<text transform="translate(906,1348)" font-size="15" style="fill:rgb(176,176,176)">score</text>
+<text transform="translate(1998,779)" font-size="15" style="fill:rgb(176,176,176)">cooky</text>
+<text transform="translate(1103,1056)" font-size="15" style="fill:rgb(180,180,180)">incidence</text>
+<text transform="translate(807,1264)" font-size="15" style="fill:rgb(180,180,180)">point</text>
+<text transform="translate(2014,733)" font-size="15" style="fill:rgb(180,180,180)">healthy</text>
+<text transform="translate(866,1385)" font-size="15" style="fill:rgb(180,180,180)">model</text>
+<text transform="translate(1604,90)" font-size="15" style="fill:rgb(180,180,180)">technology</text>
+<text transform="translate(1599,130)" font-size="15" style="fill:rgb(180,180,180)">clin</text>
+<text transform="translate(654,848)" font-size="15" style="fill:rgb(180,180,180)">analogue</text>
+<text transform="translate(1651,1025)" font-size="15" style="fill:rgb(180,180,180)">park</text>
+<text transform="translate(1696,508)" font-size="15" style="fill:rgb(182,182,182)">agency</text>
+<text transform="translate(1393,558)" font-size="15" style="fill:rgb(182,182,182)">pain</text>
+<text transform="translate(2151,1058)" font-size="15" style="fill:rgb(182,182,182)">directly</text>
+<text transform="translate(1906,223)" font-size="15" style="fill:rgb(182,182,182)">exercise</text>
+<text transform="translate(1360,1261)" font-size="15" style="fill:rgb(182,182,182)">link</text>
+<text transform="translate(1121,217)" font-size="15" style="fill:rgb(182,182,182)">lotte</text>
+<text transform="translate(1606,1416)" font-size="15" style="fill:rgb(182,182,182)">estimated</text>
+<text transform="translate(1552,1347)" font-size="15" style="fill:rgb(182,182,182)">previous</text>
+<text transform="translate(1685,1242)" font-size="15" style="fill:rgb(182,182,182)">april</text>
+<text transform="translate(2111,768)" font-size="15" style="fill:rgb(182,182,182)">large</text>
+<text transform="translate(1994,221)" font-size="15" style="fill:rgb(182,182,182)">characteristic</text>
+<text transform="translate(1087,1385)" font-size="15" style="fill:rgb(182,182,182)">once-daily</text>
+<text transform="translate(2013,162)" font-size="15" style="fill:rgb(182,182,182)">washington</text>
+<text transform="translate(1323,57)" font-size="15" style="fill:rgb(182,182,182)">additional</text>
+<text transform="translate(2110,744)" font-size="15" style="fill:rgb(182,182,182)">primary</text>
+<text transform="translate(661,904)" font-size="15" style="fill:rgb(182,182,182)">discontinuation</text>
+<text transform="translate(2229,502)" font-size="15" style="fill:rgb(182,182,182)">zhang</text>
+<text transform="translate(2082,1139)" font-size="15" style="fill:rgb(182,182,182)">class</text>
+<text transform="translate(1315,796)" font-size="15" style="fill:rgb(182,182,182)">laboratory</text>
+<text transform="translate(989,856) rotate(-90)" font-size="15" style="fill:rgb(182,182,182)">neuroendocrine</text>
+<text transform="translate(911,1166)" font-size="15" style="fill:rgb(182,182,182)">cgs</text>
+<text transform="translate(1497,1024)" font-size="15" style="fill:rgb(182,182,182)">sjp</text>
+<text transform="translate(642,557)" font-size="15" style="fill:rgb(186,186,186)">related</text>
+<text transform="translate(1008,14)" font-size="15" style="fill:rgb(186,186,186)">effective</text>
+<text transform="translate(1340,208)" font-size="15" style="fill:rgb(186,186,186)">index</text>
+<text transform="translate(1866,317) rotate(-90)" font-size="15" style="fill:rgb(186,186,186)">meta-analysis</text>
+<text transform="translate(1925,1156)" font-size="15" style="fill:rgb(186,186,186)">october</text>
+<text transform="translate(1777,833) rotate(-90)" font-size="15" style="fill:rgb(186,186,186)">dulaglutide</text>
+<text transform="translate(1577,219)" font-size="15" style="fill:rgb(186,186,186)">november</text>
+<text transform="translate(1755,240) rotate(-90)" font-size="15" style="fill:rgb(186,186,186)">experimental</text>
+<text transform="translate(1780,906) rotate(-90)" font-size="15" style="fill:rgb(186,186,186)">role</text>
+<text transform="translate(2250,637)" font-size="15" style="fill:rgb(186,186,186)">disorder</text>
+<text transform="translate(2039,1301)" font-size="15" style="fill:rgb(186,186,186)">whichever</text>
+<text transform="translate(1805,334)" font-size="15" style="fill:rgb(186,186,186)">centre</text>
+<text transform="translate(2277,1080) rotate(-90)" font-size="15" style="fill:rgb(186,186,186)">supplemental</text>
+<text transform="translate(1185,362)" font-size="15" style="fill:rgb(188,188,188)">ingredient</text>
+<text transform="translate(1136,1153)" font-size="15" style="fill:rgb(188,188,188)">provider</text>
+<text transform="translate(836,241)" font-size="15" style="fill:rgb(188,188,188)">distribution</text>
+<text transform="translate(2130,434)" font-size="15" style="fill:rgb(188,188,188)">tumor</text>
+<text transform="translate(679,393)" font-size="15" style="fill:rgb(188,188,188)">stroke</text>
+<text transform="translate(1165,877)" font-size="15" style="fill:rgb(188,188,188)">maintenance</text>
+<text transform="translate(796,1176)" font-size="15" style="fill:rgb(188,188,188)">protein</text>
+<text transform="translate(940,484)" font-size="15" style="fill:rgb(188,188,188)">arm</text>
+<text transform="translate(2238,805) rotate(-90)" font-size="15" style="fill:rgb(188,188,188)">demonstrated</text>
+<text transform="translate(1843,939) rotate(-90)" font-size="15" style="fill:rgb(188,188,188)">wang</text>
+<text transform="translate(1941,925)" font-size="15" style="fill:rgb(188,188,188)">phone</text>
+<text transform="translate(1774,1262)" font-size="15" style="fill:rgb(188,188,188)">withdrew</text>
+<text transform="translate(2112,672)" font-size="15" style="fill:rgb(188,188,188)">equally</text>
+<text transform="translate(1788,552)" font-size="15" style="fill:rgb(191,191,191)">bulk</text>
+<text transform="translate(1878,825)" font-size="15" style="fill:rgb(191,191,191)">via</text>
+<text transform="translate(2262,1127)" font-size="15" style="fill:rgb(191,191,191)">either</text>
+<text transform="translate(939,785) rotate(-90)" font-size="15" style="fill:rgb(191,191,191)">therapeutic</text>
+<text transform="translate(1506,1391)" font-size="15" style="fill:rgb(191,191,191)">france</text>
+<text transform="translate(827,775)" font-size="15" style="fill:rgb(191,191,191)">impact</text>
+<text transform="translate(1052,823) rotate(-90)" font-size="15" style="fill:rgb(191,191,191)">previously</text>
+<text transform="translate(2013,1202)" font-size="15" style="fill:rgb(191,191,191)">lingvay</text>
+<text transform="translate(1317,1095)" font-size="15" style="fill:rgb(191,191,191)">composite</text>
+<text transform="translate(2328,958) rotate(-90)" font-size="15" style="fill:rgb(191,191,191)">estimate</text>
+<text transform="translate(1645,782) rotate(-90)" font-size="15" style="fill:rgb(191,191,191)">proportion</text>
+<text transform="translate(1651,1307)" font-size="15" style="fill:rgb(191,191,191)">min</text>
+<text transform="translate(1996,750)" font-size="15" style="fill:rgb(191,191,191)">hungarian</text>
+<text transform="translate(1889,80)" font-size="15" style="fill:rgb(191,191,191)">academy</text>
+<text transform="translate(1648,200) rotate(-90)" font-size="15" style="fill:rgb(191,191,191)">plasticity</text>
+<text transform="translate(1352,680)" font-size="12" style="fill:rgb(191,191,191)">correspondence</text>
+<text transform="translate(1769,1097)" font-size="12" style="fill:rgb(191,191,191)">dk-2700</text>
+<text transform="translate(1283,1138)" font-size="12" style="fill:rgb(191,191,191)">email</text>
+<text transform="translate(2085,550)" font-size="12" style="fill:rgb(191,191,191)">lbkn</text>
+<text transform="translate(1272,908)" font-size="12" style="fill:rgb(191,191,191)">novonordisk</text>
+<text transform="translate(754,435)" font-size="12" style="fill:rgb(191,191,191)">authorship</text>
+<text transform="translate(1099,654)" font-size="12" style="fill:rgb(191,191,191)">vt750</text>
+<text transform="translate(652,1013)" font-size="12" style="fill:rgb(195,195,195)">important</text>
+<text transform="translate(990,1348)" font-size="12" style="fill:rgb(195,195,195)">hormone</text>
+<text transform="translate(1301,966)" font-size="12" style="fill:rgb(195,195,195)">glycemic</text>
+<text transform="translate(1280,1446)" font-size="12" style="fill:rgb(195,195,195)">considered</text>
+<text transform="translate(1989,570)" font-size="12" style="fill:rgb(195,195,195)">average</text>
+<text transform="translate(1312,724)" font-size="12" style="fill:rgb(195,195,195)">early</text>
+<text transform="translate(646,796)" font-size="12" style="fill:rgb(195,195,195)">percentage</text>
+<text transform="translate(1579,1086)" font-size="12" style="fill:rgb(195,195,195)">central</text>
+<text transform="translate(1062,874)" font-size="12" style="fill:rgb(195,195,195)">gastric</text>
+<text transform="translate(811,610)" font-size="12" style="fill:rgb(195,195,195)">relevant</text>
+<text transform="translate(1522,795) rotate(-90)" font-size="12" style="fill:rgb(195,195,195)">semaglutide-treated</text>
+<text transform="translate(2043,1380)" font-size="12" style="fill:rgb(195,195,195)">withdraw</text>
+<text transform="translate(831,162)" font-size="12" style="fill:rgb(195,195,195)">seattle</text>
+<text transform="translate(2354,1019) rotate(-90)" font-size="12" style="fill:rgb(195,195,195)">budapest</text>
+<text transform="translate(782,792) rotate(-90)" font-size="12" style="fill:rgb(195,195,195)">hungary</text>
+<text transform="translate(945,190)" font-size="12" style="fill:rgb(195,195,195)">inserm</text>
+<text transform="translate(1108,416)" font-size="12" style="fill:rgb(195,195,195)">jean-pierre</text>
+<text transform="translate(2252,338)" font-size="12" style="fill:rgb(195,195,195)">aubert</text>
+<text transform="translate(756,499)" font-size="12" style="fill:rgb(195,195,195)">lille</text>
+<text transform="translate(898,680)" font-size="12" style="fill:rgb(198,198,198)">fda-approved</text>
+<text transform="translate(1242,1174)" font-size="12" style="fill:rgb(198,198,198)">serious</text>
+<text transform="translate(819,589)" font-size="12" style="fill:rgb(198,198,198)">company</text>
+<text transform="translate(688,584)" font-size="12" style="fill:rgb(198,198,198)">many</text>
+<text transform="translate(1220,695)" font-size="12" style="fill:rgb(198,198,198)">consistent</text>
+<text transform="translate(988,544) rotate(-90)" font-size="12" style="fill:rgb(198,198,198)">problem</text>
+<text transform="translate(1104,269) rotate(-90)" font-size="12" style="fill:rgb(198,198,198)">occur</text>
+<text transform="translate(1046,885)" font-size="12" style="fill:rgb(198,198,198)">recent</text>
+<text transform="translate(2005,513)" font-size="12" style="fill:rgb(198,198,198)">would</text>
+<text transform="translate(1589,1188)" font-size="12" style="fill:rgb(198,198,198)">decrease</text>
+<text transform="translate(917,825)" font-size="12" style="fill:rgb(198,198,198)">jump</text>
+<text transform="translate(819,639)" font-size="12" style="fill:rgb(198,198,198)">van</text>
+<text transform="translate(1992,46)" font-size="12" style="fill:rgb(198,198,198)">emptying</text>
+<text transform="translate(1470,1298)" font-size="12" style="fill:rgb(198,198,198)">whereas</text>
+<text transform="translate(2161,377)" font-size="12" style="fill:rgb(198,198,198)">animal</text>
+<text transform="translate(1689,1181)" font-size="12" style="fill:rgb(198,198,198)">investigator</text>
+<text transform="translate(990,46)" font-size="12" style="fill:rgb(198,198,198)">grant</text>
+<text transform="translate(742,1228)" font-size="12" style="fill:rgb(198,198,198)">pooled</text>
+<text transform="translate(1341,221)" font-size="12" style="fill:rgb(202,202,202)">concern</text>
+<text transform="translate(1695,490)" font-size="12" style="fill:rgb(202,202,202)">practice</text>
+<text transform="translate(1052,1431)" font-size="12" style="fill:rgb(202,202,202)">august</text>
+<text transform="translate(2379,759) rotate(-90)" font-size="12" style="fill:rgb(202,202,202)">significantly</text>
+<text transform="translate(1756,1320)" font-size="12" style="fill:rgb(202,202,202)">part</text>
+<text transform="translate(1449,210) rotate(-90)" font-size="12" style="fill:rgb(202,202,202)">generic</text>
+<text transform="translate(2001,1032)" font-size="12" style="fill:rgb(202,202,202)">insurance</text>
+<text transform="translate(2101,1350)" font-size="12" style="fill:rgb(202,202,202)">alone</text>
+<text transform="translate(2307,547)" font-size="12" style="fill:rgb(202,202,202)">necessary</text>
+<text transform="translate(1314,94)" font-size="12" style="fill:rgb(202,202,202)">thus</text>
+<text transform="translate(2109,976)" font-size="12" style="fill:rgb(202,202,202)">signaling</text>
+<text transform="translate(1814,126)" font-size="12" style="fill:rgb(202,202,202)">american</text>
+<text transform="translate(1999,808)" font-size="12" style="fill:rgb(202,202,202)">hazard</text>
+<text transform="translate(2009,484)" font-size="12" style="fill:rgb(202,202,202)">interaction</text>
+<text transform="translate(2083,147)" font-size="12" style="fill:rgb(202,202,202)">absorption</text>
+<text transform="translate(2218,433)" font-size="12" style="fill:rgb(202,202,202)">assessed</text>
+<text transform="translate(1274,1282)" font-size="12" style="fill:rgb(202,202,202)">weekly-once</text>
+<text transform="translate(2194,514)" font-size="12" style="fill:rgb(202,202,202)">drp</text>
+<text transform="translate(1229,316)" font-size="12" style="fill:rgb(202,202,202)">vehicle</text>
+<text transform="translate(1036,1446)" font-size="12" style="fill:rgb(202,202,202)">tanycytes</text>
+<text transform="translate(1338,1109)" font-size="12" style="fill:rgb(202,202,202)">neurosci</text>
+<text transform="translate(2267,1146)" font-size="12" style="fill:rgb(202,202,202)">hfpef</text>
+<text transform="translate(1638,355)" font-size="12" style="fill:rgb(205,205,205)">established</text>
+<text transform="translate(1361,41)" font-size="12" style="fill:rgb(205,205,205)">standard</text>
+<text transform="translate(1177,681)" font-size="12" style="fill:rgb(205,205,205)">chemical</text>
+<text transform="translate(1374,786)" font-size="12" style="fill:rgb(205,205,205)">liver</text>
+<text transform="translate(1525,555)" font-size="12" style="fill:rgb(205,205,205)">c-cell</text>
+<text transform="translate(888,377)" font-size="12" style="fill:rgb(205,205,205)">reduces</text>
+<text transform="translate(1279,1367)" font-size="12" style="fill:rgb(205,205,205)">like</text>
+<text transform="translate(1369,1313)" font-size="12" style="fill:rgb(205,205,205)">national</text>
+<text transform="translate(1737,658)" font-size="12" style="fill:rgb(205,205,205)">interest</text>
+<text transform="translate(1492,253)" font-size="12" style="fill:rgb(205,205,205)">known</text>
+<text transform="translate(1678,1195)" font-size="12" style="fill:rgb(205,205,205)">davy</text>
+<text transform="translate(1991,545)" font-size="12" style="fill:rgb(205,205,205)">reducing</text>
+<text transform="translate(1734,1415)" font-size="12" style="fill:rgb(205,205,205)">nonfatal</text>
+<text transform="translate(1814,183)" font-size="12" style="fill:rgb(205,205,205)">specific</text>
+</svg>
