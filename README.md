@@ -11,4 +11,4 @@ Returned URLs were consequently scraped, stripped of stop words and ranked by po
 of words in the visualisation correspond to popularity.
 
 This notebook was commissioned by Toine Pieters (Utrecht University). In line with open science principles,
-this repository contains the full pipeline that generated the published "Thalidomide" wordcloud.
+this repository contains the full pipeline that generated the published "Thalidomide" (`main` branch) and "Semaglutide" (`semaglutide` branch) wordclouds.
